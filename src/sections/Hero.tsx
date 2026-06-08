@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Terminal, Cpu, Database, Star } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import type { TranslationType } from '../data/translations';
 
 interface HeroProps {
@@ -205,7 +205,7 @@ export default function Hero({ t }: HeroProps) {
           <div className="w-[70%] h-[70%] rounded-full p-1 bg-gradient-to-tr from-amber-600 via-orange-500 to-amber-900 relative z-10 shadow-[0_0_40px_rgba(245,158,11,0.3)]">
             <div className="w-full h-full rounded-full overflow-hidden border-4 border-bg-base">
               <img
-                src="/images/projects/profile.jpg"
+                src="./images/projects/profile.jpg"
                 alt="Eliane Orlandin"
                 className="w-full h-full object-cover"
                 loading="eager"
