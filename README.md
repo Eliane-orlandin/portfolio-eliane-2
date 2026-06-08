@@ -1,73 +1,37 @@
-# React + TypeScript + Vite
+# 👩‍💻 Meu Portfólio - Construído com IA Multi-agentes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo(a) ao repositório do meu portfólio pessoal! 
 
-Currently, two official plugins are available:
+🌐 **Acesse o site ao vivo:** [https://eliane-orlandin.github.io/portfolio-eliane-2/](https://eliane-orlandin.github.io/portfolio-eliane-2/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🤖 Como este projeto foi construído? (O poder do Antigravity)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Sou desenvolvedora com foco em Backend (Java/Spring Boot) e, embora ainda não domine o desenvolvimento Frontend, estou estudando a área ativamente com o objetivo de me tornar uma desenvolvedora Full Stack. Decidi unir a necessidade de construir este portfólio ao meu entusiasmo por Inteligência Artificial e Engenharia de Prompts, transformando a criação deste site em um laboratório prático para expandir meus conhecimentos.
+Este portfólio foi inteiramente desenvolvido utilizando o **Google Antigravity**, uma plataforma de desenvolvimento inovadora baseada em **tecnologia de multi-agentes autônomos**. 
 
-## Expanding the ESLint configuration
+### 📚 Meu Processo de Aprendizado
+Ao invés de simplesmente pedir para a IA gerar o código visual pronto e fazer um "copia e cola", eu utilizei a ferramenta de forma intencional:
+1. **Orquestração de Agentes:** Usei o Antigravity para planejar, executar e estruturar os arquivos visuais e a responsividade do projeto.
+2. **Explicação Passo a Passo:** A cada nova etapa e a cada novo trecho gerado pelos agentes, eu solicitei que a IA me **explicasse o código detalhadamente**. 
+3. **Compreensão na Prática:** Dessa forma, consegui expandir minha visão sistêmica, entendendo a lógica por trás do HTML, CSS e JavaScript que estava sendo criado, e consolidando como as camadas visuais se conectam com a lógica de bastidores que estou acostumada a construir.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tecnologias e Ferramentas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* **Google Antigravity:** IDE e plataforma de orquestração multi-agente para planejamento e geração do código.
+* **HTML5 / CSS3 / JavaScript:** Construção da interface e interatividade.
+* **Git & GitHub Pages:** Versionamento de código e deploy da página ao vivo.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 💡 Sobre Mim
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Sou **Eliane Orlandin**, uma profissional focada em transição de carreira para a área de tecnologia. Atualmente, estou imersa na construção de APIs e arquitetura de sistemas com Java/Spring, além de explorar constantemente o fascinante mundo da Inteligência Artificial e dos Agentes Autônomos.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Se você quiser ver os códigos em que eu construo a arquitetura e a persistência de dados (meus projetos de Backend), sinta-se à vontade para explorar os outros repositórios no meu GitHub! 
+
+---
+> *Este repositório é a prova de que a Inteligência Artificial não substitui a nossa capacidade de criar, mas atua como um excelente par de programação, acelerador de carreira e ferramenta de estudo.*
