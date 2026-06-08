@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Outfit', sans-serif;
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-bg-base: var(--bg-base);
+  --color-bg-card: var(--bg-card);
+  --color-text-title: var(--text-title);
+  --color-text-body: var(--text-body);
+  --color-border-card: var(--border-card);
+}
+
+:root {
+  --primary: #ea580c; /* orange-600 */
+  --primary-hover: #c2410c; /* orange-700 */
+  --bg-base: #f8fafc; /* slate-50 */
+  --bg-card: #ffffff;
+  --text-title: #0f172a; /* slate-900 */
+  --text-body: #475569; /* slate-600 */
+  --border-card: #e2e8f0; /* slate-200 */
+}
+
+.dark {
+  --primary: #f97316; /* orange-500 */
+  --primary-hover: #fb923c; /* orange-400 */
+  --bg-base: #030712; /* gray-950 */
+  --bg-card: #0f172a; /* slate-900 */
+  --text-title: #f9fafb; /* gray-50 */
+  --text-body: #9ca3af; /* gray-400 */
+  --border-card: #1e293b; /* slate-800 */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background-color: var(--bg-base);
+  color: var(--text-body);
+  scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--text-title);
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.dark .glass {
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-card);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
